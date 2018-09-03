@@ -1,0 +1,13 @@
+https://developer.chrome.com/extensions
+
+
+- Maybe remove browser_action and replace with page_action.
+  Add background script that filters events (restrict page to helpcenter url only).
+    Is it declarativeContent?
+
+
+- Add a 2nd button: copy link and close tab !!!		(chrome event?)
+	I am sure the contenscript.js has to send a message to a background script for this.
+
+
+- Add Shortcut listeners to contentscript.js (possible?). call function(s) via Shortcut(s).

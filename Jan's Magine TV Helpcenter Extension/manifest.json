@@ -1,0 +1,19 @@
+{
+    "manifest_version" : 2,
+    "name" : "Jan's Magine TV Helpcenter Extension",
+    "version" : "1.0",
+    "description" : "Copying URL and auto formatting to Markdown for Zendesk.",
+    "content_scripts" : [
+        {
+            "matches" : ["https://help.magine.com/*"],
+            "js" : ["contentscript.js"]
+        }
+    ],
+    "browser_action" : {
+        "default_icon" : {
+            "16": "icon.png"
+        },
+        "default_popup" : "popup.html",
+        "default_title" : "Jan's Magine TV Helpcenter Extension"
+    }
+}
