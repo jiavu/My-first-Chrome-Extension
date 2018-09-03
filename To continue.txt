@@ -1,5 +1,6 @@
 https://developer.chrome.com/extensions
 
+- add border radius!
 
 - Maybe remove browser_action and replace with page_action.
   Add background script that filters events (restrict page to helpcenter url only).
