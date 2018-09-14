@@ -1,16 +1,20 @@
 chrome.runtime.onMessage.addListener(function(message) {
     
-    chrome.tabs.query( {
-        currentWindow: true,
-        active : true},
-        function(tabs){ window.alert(tabs.id) }
-      )
-       
-    if (message.close) {
-        chrome.tabs.remove(/*ID*/);
+    /*
+    if (message.close) {        // Thats not necessary. Backroundscript will be executed when contentscript sends a message.
     };
+    */
+    
+    chrome.tabs.query(
+        {
+        currentWindow: true,
+        active : true
+        },
+        function(tabs){
+            tabs.forEach( tab => chrome.tabs.remove(tab.id) );
+        }
+    );
 });
 
-// HOW DO I GET THE ID OF THE ACTIVE TAB??????
-
+    
 // https://developer.chrome.com/extensions/tabs#method-remove

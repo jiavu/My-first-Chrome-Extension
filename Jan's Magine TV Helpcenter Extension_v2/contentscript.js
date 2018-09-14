@@ -53,7 +53,7 @@ copyButton2.innerHTML = "Copy+Close";
 
 let descr = document.createElement("p");
 /* descr.innerHTML = `Jan's Magine TV Helpcenter Extension`; */
-descr.innerHTML = `Copy formatted link to clipboard`;
+descr.innerHTML = `Copy formatted link to clipboard:`;
 /* let shortkey = document.createElement("p");
 shortkey.innerHTML = "(alt + ...)"; */
 copyTool.appendChild(descr);
