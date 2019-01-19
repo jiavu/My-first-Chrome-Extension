@@ -9,9 +9,9 @@ Everything with just 1 click.
 * Copy-button,
 * Copy+Close-button.
 
-Please submit bug reports to [https://github.com/jiavu](https://github.com/jiavu/My-first-Chrome-Extension/tree/master). Pull requests are welcome.
+Please submit bug reports to [https://github.com/jiavu](https://github.com/jiavu/My-first-Chrome-Extension). Pull requests are welcome.
 
-Part1: [Zendesk iframe app](https://github.com/jiavu/Zendesk-HC-App/tree/master/build). Links to Helpcenter, offering a search input.
+Part1: [Zendesk iframe app](https://github.com/jiavu/Zendesk-HC-App). Links to Helpcenter, offering a search input.
 
 ### Screenshot(s):
 nööp.
